@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { FaGithub } from 'react-icons/fa'
 import { useLocation } from 'react-router-dom'
-import backgroundWave from '../assets/images/background-wave.png'
+import hangers from '../assets/images/hangers.png'
 import routes from '../constants/routes.json'
 
 const Footer = () => {
@@ -10,16 +10,16 @@ const Footer = () => {
 
   return (
     <FooterWrapper>
-      Copyright © 2021 michalosman
+      Copyright © 2023 jla505
       <GithubLink
-        href="https://github.com/michalosman"
+        href="https://github.com/jla505"
         target="_blank"
         rel="noopener"
       >
         <FaGithub />
       </GithubLink>
       {location.pathname !== routes.PRODUCTS && (
-        <BackgroundWave src={backgroundWave} alt="background image" />
+        <Hangers src={hangers} alt="background image" />
       )}
     </FooterWrapper>
   )
@@ -48,7 +48,7 @@ const GithubLink = styled.a`
     transform: scale(1.2);
   }
 `
-const BackgroundWave = styled.img`
+const Hangers = styled.img`
   position: absolute;
   bottom: 0;
   left: 0;

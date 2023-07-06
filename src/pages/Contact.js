@@ -2,47 +2,26 @@ import React from 'react'
 import styled from 'styled-components'
 import {
   FaGithub,
-  FaFacebookMessenger,
-  FaFacebookF,
   FaTwitter,
-  FaInstagram,
 } from 'react-icons/fa'
 
 const Contact = () => {
   return (
     <ContactWrapper>
       <SocialMedia>
-        <SocialLink href="https://github.com/michalosman" target="_blank">
+        <SocialLink href="https://github.com/jla505" target="_blank">
           <FaGithub />
         </SocialLink>
         <SocialLink
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-          target="_blank"
-        >
-          <FaFacebookF />
-        </SocialLink>
-        <SocialLink
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-          target="_blank"
-        >
-          <FaFacebookMessenger />
-        </SocialLink>
-        <SocialLink
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          href="https://twitter.com/_jimbojl"
           target="_blank"
         >
           <FaTwitter />
         </SocialLink>
-        <SocialLink
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-          target="_blank"
-        >
-          <FaInstagram />
-        </SocialLink>
       </SocialMedia>
       <ContactInfo>
-        <p>FakeStore</p>
-        <p>Rodeo Drive 42, Los Angeles USA</p>
+        <p>Eco Friendly Clothes</p>
+        <p>Public Market, 1689 Johnston St, Vancouver, BC V6H 3R9</p>
       </ContactInfo>
     </ContactWrapper>
   )
