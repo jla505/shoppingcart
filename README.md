@@ -1,70 +1,229 @@
-# Getting Started with Create React App
+# Shopping Cart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/jla505/shoppingcart">
+    <img src="public/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <h3 align="center">Online shopping cart</h3>
 
-### `npm run build`
+  <p align="center">
+    Eco Friendly Clothes is an online clothing store. Leveraging the power of React this website aims to provide users with a user-friendly experience that combines visually appealing design, user-friendly navigation, and informative content to create an engaging and effective platform for selling products or services online.
+    <br />
+    <a href="https://github.com/jla505/shoppingcart"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    ·
+    <a href="https://github.com/jla505/shoppingcart/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/jla505/shoppingcart/issues">Request Feature</a>
+  </p>
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot2]](https://example.com)
+[![Product Name Screen Shot][product-screenshot3]](https://example.com)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+"Eco Friendly Clothes" is an online clothing store that embraces the capabilities of React, a cutting-edge JavaScript library for building user interfaces. By integrating React's powerful features, this website aims to offer users an exceptionally user-friendly and visually captivating journey through their sustainable fashion choices. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. User Experience: The platform blends visually appealing design, user-friendly navigation, and informative content to provide an engaging shopping experience.
 
-### Code Splitting
+2. Modular Approach: React's component-based architecture breaks the website into reusable, easily maintainable modules.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Consistency: This approach ensures a cohesive look and functionality across different sections of the site.
 
-### Analyzing the Bundle Size
+4. Aesthetics: The website features pleasing color palettes, well-designed layouts, and precise content presentation.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. Real-time Updates: React's state management enables seamless real-time updates without interrupting user interaction.
 
-### Making a Progressive Web App
+6. Efficient Navigation: Dynamic routing in React ensures effortless navigation through home, products, and contact.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This synthesis of React's capabilities and eco-consciousness makes "Eco Friendly Clothes" a compelling and informative destination for online shoppers interested in sustainable fashion.
 
-### Advanced Configuration
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Built With
 
-### Deployment
+* [![React][React.js]][React-url]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run build` fails to minify
+<!-- GETTING STARTED -->
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone git@github.com:jla505/shoppingcart.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. npm run start 
+   ```sh
+   npm run start
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Take a look at my website or experiment with the code!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Add Changelog
+- [x] Add back to top links
+- [ ] Add Additional Templates w/ Examples
+- [ ] Add "components" document to easily copy & paste sections of the readme
+- [ ] Multi-language Support
+    - [ ] Chinese
+    - [ ] Spanish
+
+See the [open issues](https://github.com/jla505/shoppingcart/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Jin Liang - [@_jimbojl](https://twitter.com/_jimbojl) - jinwoodjin@gmail.com
+
+Project Link: [https://github.com/jla505/shoppingcart](https://github.com/jla505/shoppingcart)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Img Shields](https://shields.io)
+* [GitHub Pages](https://pages.github.com)
+* [Font Awesome](https://fontawesome.com)
+* [React Icons](https://react-icons.github.io/react-icons/search)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/jin-liang/
+[product-screenshot]: public/Screenshot1.png
+[product-screenshot2]: public/Screenshot2.png
+[product-screenshot3]: public/Screenshot3.png
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
